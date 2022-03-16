@@ -1,0 +1,17 @@
+const API_BASE_URL_DEVELOPMENT = 'https://localhost:7006'
+
+const ENDPOINTS = {
+    GET_ALL_POSTS: 'api/Registros',
+    CREATE_POST: 'api/Registros',
+    UPDATE_POST: 'api/Registros',
+    DELETE_POST: 'api/Registros'
+}
+
+const development = {
+    API_URL_GET_ALL_POSTS: `${API_BASE_URL_DEVELOPMENT}/${ENDPOINTS.GET_ALL_POSTS}`,
+    API_URL_CREATE_POST: `${API_BASE_URL_DEVELOPMENT}/${ENDPOINTS.CREATE_POST}`,
+    API_URL_UPDATE_POST: `${API_BASE_URL_DEVELOPMENT}/${ENDPOINTS.UPDATE_POST}`,
+    API_URL_DELETE_POST: `${API_BASE_URL_DEVELOPMENT}/${ENDPOINTS.DELETE_POST}`
+}
+
+export default development;
